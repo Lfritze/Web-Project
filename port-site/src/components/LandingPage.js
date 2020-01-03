@@ -25,18 +25,26 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  {/* Github */}
-                  <a
-                    href="https://github.com/Lfritze"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    <i className="fa fa-github-square" aria-hidden="true" />
-                  </a>
-
                   <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
-                <i className="fab fa-linkedin" aria-hidden="true" />
+
+                {/* Github */}
+                <a
+                  href="https://github.com/Lfritze"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-github-square" aria-hidden="true" />
+                </a>
+
+                {/* Freecodecamp */}
+                <a
+                  href="https://www.freecodecamp.org/lfritze"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <i className="fa fa-free-code-camp" aria-hidden="true" />
+                </a>
               </div>
             </div>
           </Cell>

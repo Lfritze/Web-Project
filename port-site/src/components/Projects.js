@@ -61,16 +61,29 @@ class Projects extends Component {
               React Project #2
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              React application that returns Github profile summary chart and
+              followers. Libraries include axios, react-dom, and
+              styled-components.
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button
+                colored
+                a
+                href="https://react-github-user-card-eta.now.sh/"
+                target="_blank"
+              >
+                GitHub
+              </Button>
+              {/* <Button colored>CodePen</Button>
+              <Button colored>Live Demo</Button> */}
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
+              <IconButton
+                name="share"
+                a
+                href="https://react-github-user-card-eta.now.sh/"
+                target="_blank"
+              />
             </CardMenu>
           </Card>
           {/* Project 3 */}

@@ -14,18 +14,21 @@ class Resume extends Component {
               <img
                 src="https://avatars1.githubusercontent.com/u/53534626?s=460&v=4"
                 alt="avatar"
-                style={{ height: "200px", borderRadius: "50%" }}
+                style={{
+                  height: "250px",
+                  borderRadius: "20%"
+                }}
               />
             </div>
             <h2 style={{ paddingTop: "2em" }}>Leighton Fritze</h2>
             <h4 style={{ color: "grey" }}>Full Stack Developer</h4>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <hr style={{ borderTop: "4px solid black", width: "50%" }} />
             <p>
               is simply dummy text of the printing and typesetting industry.
               Lorem Ipsum has been the industry's standard dummy text ever since
               the 1500s, when an unknown printer took a galley of{" "}
             </p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <hr style={{ borderTop: "4px solid black", width: "50%" }} />
             <h5>Address</h5>
             <p>Fishers, Indiana 46037</p>
             <h5>Phone</h5>
@@ -34,7 +37,7 @@ class Resume extends Component {
             <p>Leighton.Fritze.Tech@gmail.com</p>
             <h5>Web</h5>
             <p>LeightonFritze.com</p>
-            <hr style={{ borderTop: "3px solid #833fb2", width: "50%" }} />
+            <hr style={{ borderTop: "4px solid black", width: "50%" }} />
           </Cell>
 
           <Cell className="resume-right-col" col={8}>
@@ -53,15 +56,23 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #e22947" }} />
 
             <h2>Skills</h2>
-            <Skills skill="HTML" progress={90} />
-            <Skills skill="CSS" progress={85} />
-            <Skills skill="JavaScript" progress={75} />
-            <Skills skill="React" progress={75} />
+            <Skills skill="HTML" progress={80} />
+            <Skills skill="CSS" progress={70} />
+            <Skills skill="JavaScript" progress={65} />
+            <Skills skill="React" progress={65} />
             <Skills skill="Node.js" progress={50} />
-            <Skills skill="Project Management" progress={95} />
+            <Skills skill="Project Management" progress={85} />
 
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Experience</h2>
+
+            <Experience
+              startDate="Aug 2019"
+              endDate="2020"
+              companyName="Lambda School"
+              jobName="Full Stack Engineering Student"
+              jobDescription="Focused on applied JavaScript using React,and Node.js to build functional applications. Participated in daily live video instructions and chat channels. Worked and pair programmed with team members to complete daily projects using HTML, CSS, JavaScript, React, styling libraries, and Node.js. Successfully completed weekly sprint project tests. Successfully completed build week projects followed by code reviews with Lambda staff. "
+            />
 
             <Experience
               startDate="Jan 2018"
@@ -103,14 +114,16 @@ using VMware, VirtualBox, Hadoop, and MySQL"
               endDate="Aug 2017"
               companyName="Kineja"
               JobName="Property Manager"
-              jobDescription="Oversaw residential property construction and electrical maintenance projects
-- Recruited and selected tenants"
+              jobDescription="Oversaw residential property construction and electrical maintenance projects.
+              Recruited and selected tenants. Managed tenant relations and and selected contractors to make construction improvements."
+            />
+            <Experience
               startDate="Aug 2008"
               endDate="Jan 2014"
               companyName="Metro Recycling"
               jobName="QEH&S Coordinator"
-              jobDescription="Spearheaded and Implemented complete Quality, Environment, Health & Safety Management system for recycling (RIOS certification parallel to ISO 9001, 14001, OHSAS 18001)
-- Successfully conferred with third party auditors (SGS and IDEM) to exceed industry standards"
+              jobDescription="Spearheaded and Implemented complete Quality, Environment, Health & Safety Management RIOS system for recycling firm parallel to ISO 9001, 14001, OHSAS 18001.
+              Successfully conferred with third party auditors and government agencies (SGS and IDEM) to exceed industry standards for recycling metals, automobiles, and proper disposal of hazardous chemicals."
             />
           </Cell>
         </Grid>

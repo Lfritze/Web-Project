@@ -1,5 +1,6 @@
 {
   "name": "port-site",
+  "homepage": "http://leightonfritze.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

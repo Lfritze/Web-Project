@@ -38,13 +38,13 @@ class LandingPage extends Component {
                 </a>
 
                 {/* Freecodecamp */}
-                <a
+                {/* <a
                   href="https://www.freecodecamp.org/lfritze"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i className="fa fa-free-code-camp" aria-hidden="true" />
-                </a>
+                </a> */}
               </div>
             </div>
           </Cell>

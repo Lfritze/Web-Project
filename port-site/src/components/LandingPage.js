@@ -18,7 +18,7 @@ class LandingPage extends Component {
               <h1>Full Stack Developer</h1>
               <hr />
               <p>HTML/CSS | JavaScript | React | SQL | NodeJS</p>
-              <div className="social-links">
+              <div className="social-links" style={{display: "flex", justifyContent: "space-evenly"}}>
                 {/* LinkedIn */}
                 <a
                   href="https://www.linkedin.com/in/leightonfritze/"

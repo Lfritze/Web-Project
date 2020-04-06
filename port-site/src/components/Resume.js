@@ -67,11 +67,11 @@ class Resume extends Component {
             <h2>Experience</h2>
 
             <Experience
-              startDate="Aug 2019"
-              endDate="2020"
-              companyName="Lambda School"
-              jobName="Full Stack Engineering Student"
-              jobDescription="Focused on applied JavaScript using React,and Node.js to build functional applications. Participated in daily live video instructions and chat channels. Worked and pair programmed with team members to complete daily projects using HTML, CSS, JavaScript, React, styling libraries, and Node.js. Successfully completed weekly sprint project tests. Successfully completed build week projects followed by code reviews with Lambda staff. "
+              startDate="Current"
+              // endDate="Current"
+              companyName="Independent Contractor - Valparaiso University"
+              jobName="Freelance Web Developer"
+              jobDescription="Migrating university web pages to new Wordpress platform "
             />
 
             <Experience

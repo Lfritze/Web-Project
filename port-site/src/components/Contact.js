@@ -14,9 +14,7 @@ class Contact extends Component {
               style={{ height: "250px", borderRadius: "15%" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              lorem ipsum do re mit lo foal sa latids lo dodsa dsdsds dsdsds
-              bfeefff eatc the beef new net neutral ffd llfjj no way jose
-              canseco{" "}
+              Full Stack Developer with a passion for learning and seeking new opportunities.
             </p>
           </Cell>
           <Cell col={6}>

@@ -1,4 +1,10 @@
 import React, { Component } from "react";
+import githubPic  from "../assets/github-project.JPG";
+import didactPic from "../assets/didact.JPG";
+import africaPic from "../assets/africa.JPG";
+import valpoPic from "../assets/valpo.jpg";
+import beamPic from "../assets/beam.JPG";
+import portagePic from "../assets/portage.png";
 import {
   Tabs,
   Tab,
@@ -24,99 +30,180 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           {/* Project 1 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "2%" }}>
             <CardTitle
               style={{
-                color: "#fff",
+                color: "#000",
                 height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                background: `url(${didactPic})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                marginBottom: "-10%"
+                
+                  
               }}
             >
-              React Project #1
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              <h4>Didact</h4>
+              <p>Fullstack application using React / Node. This is a content management system app with hierarchical user roles (Owner, Admin, Moderator, User).</p>  
+              <p>Frontend - Redux, Axios, MixPanel, Cypress, Material UI, and Styled Components. 
+              Backend - PostgreSQL, Express, Helmet, Cors, Cloudinary, Multer, Nodemon, Bycrypt, Jest, Supertest. </p>
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored 
+                href="https://github.com/Lfritze/didact-fe"
+                target="_blank">GitHub FE</Button>
+              <Button colored href="https://github.com/Lfritze/didact-be"
+                target="_blank">Github BE</Button>
+              <Button colored href="https://didactlmsfe.netlify.com/"
+                target="_blank">Live Demo</Button>
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
+            
           </Card>
           {/* Project 2 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "2%" }}>
             <CardTitle
               style={{
-                color: "#fff",
+                color: "#000",
                 height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                background: `url(${githubPic})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                marginLeft: "20%",
+                marginBottom: "-10%"
               }}
             >
-              React Project #2
+             
             </CardTitle>
             <CardText>
-              React application that returns Github profile summary chart and
-              followers. Libraries include axios, react-dom, and
+              <h4>React Github User Card</h4>
+              React application that returns Github profile summary chart, and followers with search functionality. Libraries include axios, react-dom, and
               styled-components.
             </CardText>
             <CardActions border>
               <Button
                 colored
-                a
                 href="https://react-github-user-card-eta.now.sh/"
                 target="_blank"
               >
                 GitHub
               </Button>
-              {/* <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button> */}
+              <Button colored href="https://react-github-user-card-eta.now.sh/"
+                target="_blank">Live Demo</Button> 
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton
-                name="share"
-                a
-                href="https://react-github-user-card-eta.now.sh/"
-                target="_blank"
-              />
-            </CardMenu>
+            
           </Card>
           {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "450", margin: "auto" }}>
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "2%" }}>
             <CardTitle
               style={{
                 color: "#fff",
                 height: "176px",
-                background:
-                  "url(https://xtnotes-1255646395.coshk.myqcloud.com/images/react-1.svg) center / cover"
+                background: `url(${africaPic})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                marginBottom: "-10%"
               }}
             >
-              React Project #3
             </CardTitle>
             <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's
+              <h4>Lambda Buildweek Project (backend - only)</h4>
+              Successfully built backend with full CRUD functionality using Node.js for a Lambda School buildweek project, African Marketplace. 2 Types of users (buyers, sellers).
             </CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored href="https://github.com/African-Market-Place-2/back-end-">GitHub</Button>
+              
             </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
+            
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "2%" }}>
+            <CardTitle
+              style={{
+                color: "#000",
+                height: "176px",
+                background: `url(${beamPic})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                marginBottom: "-10%"
+                
+                  
+              }}
+            >
+            </CardTitle>
+            <CardText>
+              <h4>Virtual Laboratory - Flexural Beam Testing</h4>
+              Curricular support product that presents data from flexural concrete beam testing for the Valparaiso University Civil Engineering Department. Tech used: HTML, CSS, JavaScript, PHP, SQL, and MATLAB.
+            </CardText>
+            <CardActions border>
+              <Button colored 
+                href="https://scholar.valpo.edu/cus/605/"
+                target="_blank">Read More</Button>
+              
+            </CardActions>
+            
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "2%" }}>
+            <CardTitle
+              style={{
+                color: "#000",
+                height: "176px",
+                background: `url(${valpoPic})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                marginBottom: "-10%"
+                
+                  
+              }}
+            >
+            </CardTitle>
+            <CardText>
+              <h4>Valparaiso University</h4>
+              <h6>Web Migration</h6> 
+              As an independent contractor I am currently working with the webmaster to migrate and repair site content from the old WordPress to a new WordPress platform. 
+            </CardText>
+            <CardActions border>
+              <Button colored 
+                href="https://www.valpo.edu/"
+                target="_blank">Website</Button>
+            </CardActions>
+            
+          </Card>
+
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "2%" }}>
+            <CardTitle
+              style={{
+                color: "#000",
+                height: "176px",
+                background: `url(${portagePic})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                marginBottom: "-10%"
+                
+                  
+              }}
+            >
+            </CardTitle>
+            <CardText>
+              <h4>Portage Township Schools</h4>
+              <h6>Web Accessibility</h6> 
+              Completely overhauled 12 district websites to meet section 508 standards for ADA compliance. 
+            </CardText>
+            <CardActions border>
+              <Button colored 
+                href="https://www.portage.k12.in.us/"
+                target="_blank">District Home Site</Button>
+            </CardActions>
+            
           </Card>
         </div>
       );
     } else if (this.state.activeTab === 1) {
       return (
         <div>
-          <h1>This is Angular</h1>
+          <h1>This is Freelance</h1>
         </div>
       );
     } else if (this.state.activeTab === 2) {
@@ -141,10 +228,10 @@ class Projects extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
+          <Tab>React / Node</Tab>
+          <Tab>Freelance</Tab>
+          <Tab>University</Tab>
+          {/* <Tab>MongoDB</Tab> */}
         </Tabs>
         <Grid>
           <Cell col={12}>

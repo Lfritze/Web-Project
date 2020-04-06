@@ -24,9 +24,7 @@ class Resume extends Component {
             <h4 style={{ color: "grey" }}>Full Stack Developer</h4>
             <hr style={{ borderTop: "4px solid black", width: "50%" }} />
             <p>
-              is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever since
-              the 1500s, when an unknown printer took a galley of{" "}
+              Full Stack Developer with a passion for learning and seeking new opportunities.
             </p>
             <hr style={{ borderTop: "4px solid black", width: "50%" }} />
             <h5>Address</h5>
@@ -56,12 +54,12 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #e22947" }} />
 
             <h2>Skills</h2>
-            <Skills skill="HTML" progress={80} />
-            <Skills skill="CSS" progress={70} />
-            <Skills skill="JavaScript" progress={65} />
-            <Skills skill="React" progress={65} />
-            <Skills skill="Node.js" progress={50} />
-            <Skills skill="Project Management" progress={85} />
+            <Skills skill="HTML" progress={90} />
+            <Skills skill="CSS" progress={90} />
+            <Skills skill="JavaScript" progress={75} />
+            <Skills skill="React" progress={75} />
+            <Skills skill="Node.js" progress={60} />
+            <Skills skill="Project Management" progress={95} />
 
             <hr style={{ borderTop: "3px solid #e22947" }} />
             <h2>Experience</h2>

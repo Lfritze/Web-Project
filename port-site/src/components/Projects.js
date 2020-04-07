@@ -200,24 +200,24 @@ class Projects extends Component {
           </Card>
         </div>
       );
-    } else if (this.state.activeTab === 1) {
-      return (
-        <div>
-          <h1>This is Freelance</h1>
-        </div>
-      );
-    } else if (this.state.activeTab === 2) {
-      return (
-        <div>
-          <h1>This is VueJS</h1>
-        </div>
-      );
-    } else if (this.state.activeTab === 3) {
-      return (
-        <div>
-          <h1>This is MongoDB</h1>
-        </div>
-      );
+    // } else if (this.state.activeTab === 1) {
+    //   return (
+    //     <div>
+    //       <h1>This is Freelance</h1>
+    //     </div>
+    //   );
+    // } else if (this.state.activeTab === 2) {
+    //   return (
+    //     <div>
+    //       <h1>This is VueJS</h1>
+    //     </div>
+    //   );
+    // } else if (this.state.activeTab === 3) {
+    //   return (
+    //     <div>
+    //       <h1>This is MongoDB</h1>
+    //     </div>
+    //   );
     }
   }
   render() {
@@ -228,10 +228,10 @@ class Projects extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab>React / Node</Tab>
-          <Tab>Freelance</Tab>
+          <Tab>Projects</Tab>
+          {/* <Tab>Freelance</Tab>
           <Tab>University</Tab>
-          {/* <Tab>MongoDB</Tab> */}
+          <Tab>MongoDB</Tab> */}
         </Tabs>
         <Grid>
           <Cell col={12}>

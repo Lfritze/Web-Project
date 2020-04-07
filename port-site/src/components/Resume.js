@@ -69,7 +69,7 @@ class Resume extends Component {
               // endDate="Current"
               companyName="Independent Contractor - Valparaiso University"
               jobName="Freelance Web Developer"
-              jobDescription="Migrating university web pages to new Wordpress platform "
+              jobDescription="Migrating university web pages to new a new Wordpress platform. - Restructuring the UI to improve the user experience."
             />
 
             <Experience
@@ -77,12 +77,12 @@ class Resume extends Component {
               endDate="June 2019"
               companyName="Portage Township Schools"
               jobName="Web Accessibility Coordinator"
-              jobDescription="Reformed school websites for web accessibility using section 508 standards
-- Trained IT staff members on OCR compliance, HTML, CSS, and PDF accessibility requirements
-- Designed and implemented IT Operations Manual
+              jobDescription="Reformed school websites for web accessibility using section 508 standards.
+- Trained IT staff members on OCR compliance, HTML, CSS, and PDF accessibility requirements.
+- Designed and implemented IT Operations Manual.
 - Successfully built multilayered technical drawings to map all IT resources across school district (11
-schools)
-- Updated and repaired hardware on digital signs across school district to comply with city standards"
+schools).
+- Updated and repaired hardware on digital signs across school district to comply with city standards."
             />
 
             <Experience
@@ -93,7 +93,7 @@ schools)
               jobDescription="Supported revenue and financial analytics (Opera Property Management) for hospitality group with regional hotel and restaurant locations.
 - Oversaw computer network and desktop troubleshooting and maintenance across regional
 properties.
-- Led installation and support for security camera network"
+- Led installation and support for security camera network."
             />
 
             <Experience
@@ -102,9 +102,9 @@ properties.
               companyName="Valparaiso University Graduate School"
               jobName="Computer Science Research Assistant / TA"
               jobDescription="Conducted computer science research and field interviews on how campus staff interact with
-software
+software.
 - Created teaching materials and learning procedures on health informatics and data management
-using VMware, VirtualBox, Hadoop, and MySQL"
+using VMware, VirtualBox, Hadoop, and MySQL."
             />
 
             <Experience

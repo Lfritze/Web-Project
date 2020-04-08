@@ -84,7 +84,7 @@ class Projects extends Component {
             <CardActions border>
               <Button
                 colored
-                href="https://react-github-user-card-eta.now.sh/"
+                href="https://github.com/Lfritze/React-Github-User-Card"
                 target="_blank"
               >
                 GitHub

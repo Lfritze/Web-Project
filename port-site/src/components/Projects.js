@@ -5,6 +5,7 @@ import africaPic from "../assets/africa.JPG";
 import valpoPic from "../assets/valpo.jpg";
 import beamPic from "../assets/beam.JPG";
 import portagePic from "../assets/portage.png";
+import gamePic from "../assets/game.PNG";
 import {
   Tabs,
   Tab,
@@ -62,6 +63,37 @@ class Projects extends Component {
             
           </Card>
           {/* Project 2 */}
+          <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "2%" }}>
+            <CardTitle
+              style={{
+                color: "#000",
+                height: "276px",
+                background: `url(${gamePic})`,
+                backgroundRepeat: "no-repeat",
+                backgroundSize: "cover",
+                marginBottom: "-10%"
+                
+                  
+              }}
+            >
+            </CardTitle>
+            <CardText>
+              <h4>Conway's Game of Life</h4>
+              <p>React JavaScript Application - cellular automaton with specific rules for cell evolution on a 2 dimensional grid. The "Game of Life" is a zero player game where cells reproduce or die to simulate a Turing machine. </p>
+            </CardText>
+            <CardActions border>
+              
+              <Button colored href="https://cellular-automata-game-of-life.netlify.app/"
+                target="_blank">Live Demo</Button>
+                <Button colored 
+                href="https://github.com/Lfritze/Game/tree/master/client"
+                target="_blank">GitHub</Button>
+            </CardActions>
+            
+          </Card>
+
+
+
           <Card shadow={5} style={{ minWidth: "450", margin: "auto", marginTop: "2%" }}>
             <CardTitle
               style={{

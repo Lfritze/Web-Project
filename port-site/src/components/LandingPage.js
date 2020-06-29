@@ -14,6 +14,7 @@ class LandingPage extends Component {
               alt="Leighton Fritze"
               className="avatar-img"
             />
+           
             <div className="banner-text">
               <h1>Full Stack Developer</h1>
               <hr />

@@ -14,7 +14,7 @@ class Contact extends Component {
               style={{ height: "250px", borderRadius: "15%" }}
             />
             <p style={{ width: "75%", margin: "auto", paddingTop: "1em" }}>
-              Full Stack Developer with a passion for learning and seeking new opportunities.
+              Full Stack Developer with a passion for learning and seeking new opportunities. I thrive in an environment that requires continuous learning, creativity, and change.
             </p>
           </Cell>
           <Cell col={6}>

@@ -6,11 +6,11 @@ class Education extends Component {
     return (
       <Grid>
         <Cell col={4}>
-          <p>{this.props.purdueYear}</p>
+          <p>{this.props.lambdaYear}</p>
         </Cell>
         <Cell col={8}>
-          <h4 style={{ marginTop: "0px" }}>{this.props.purdueName}</h4>
-          <p>{this.props.purdueDescription}</p>
+          <h4 style={{ marginTop: "0px" }}>{this.props.lambdaName}</h4>
+          <p>{this.props.lambdaDescription}</p>
         </Cell>
         <Cell col={4}>
           <p>{this.props.valpoYear}</p>
@@ -20,11 +20,11 @@ class Education extends Component {
           <p>{this.props.valpoDescription}</p>
         </Cell>
         <Cell col={4}>
-          <p>{this.props.lambdaYear}</p>
+          <p>{this.props.purdueYear}</p>
         </Cell>
         <Cell col={8}>
-          <h4 style={{ marginTop: "0px" }}>{this.props.lambdaName}</h4>
-          <p>{this.props.lambdaDescription}</p>
+          <h4 style={{ marginTop: "0px" }}>{this.props.purdueName}</h4>
+          <p>{this.props.purdueDescription}</p>
         </Cell>
       </Grid>
     );

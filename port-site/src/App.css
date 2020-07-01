@@ -13,15 +13,16 @@
 }
 
 .landing-grid {
-  background: url(./assets/soldiers.jpg) no-repeat center / 120%;
-  background-size: contain cover;
-
+  background: url(./assets/sunsetbeach.jpg) no-repeat center / 100%;
+  background-size: cover;
+  /* background-image: linear-gradient( 135deg, #FFCF71 10%, #2376DD 100%); */
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 110%;
   text-align: center;
+  /* overflow: hidden; */
 }
 
 .projects-grid {
@@ -43,14 +44,15 @@
 
 .about-me {
   /* margin: 0 auto; */
-  background: url(./assets/soldiers.jpg) no-repeat center / 120%;
-  background-size: contain cover;
-
-  position: fixed;
+  background: url(./assets/sunsetbeach.jpg) no-repeat center / 100%;
+  background-size: cover;
+  position: static;
   padding: 3%;
   width: 100%;
   height: 100%;
+  
 }
+
 
 .about-paragraph {
   width: 50%;
@@ -95,6 +97,7 @@
   background: white;
   color: black;
   margin-bottom: 20px;
+  
 }
 
 .contact-grid h2 {
@@ -130,7 +133,7 @@
 
 .banner-text {
   background-color: #c0252c;
-  opacity: 0.8;
+  opacity: 0.75;
   width: 55%;
   margin: auto;
   border-radius: 10px;
@@ -169,10 +172,11 @@
 
 /* Break points */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1400px) {
   .landing-grid {
-    background: url(./assets/soldiers.jpg) no-repeat center / 120%;
-    background-size: contain cover;
+    background: url(./assets/sunsetbeach.jpg) no-repeat center / 100%;
+    background-size: cover;
+    overflow: hidden;
 
     position: relative;
     top: 0;
@@ -189,8 +193,8 @@
 
 @media only screen and (max-width: 450px) {
   .landing-grid {
-    background: url(./assets/soldiers.jpg) no-repeat center / 120%;
-    background-size: contain cover;
+    background: url(./assets/sunsetbeach.jpg) no-repeat center / 120%;
+    background-size: cover;
 
     position: relative;
     top: 0;

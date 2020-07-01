@@ -27,6 +27,7 @@ class Resume extends Component {
             <p>
               Full Stack Developer with a passion for learning and seeking new opportunities. I thrive in an environment that requires continuous learning, creativity, and change.
             </p>
+            
             <hr style={{ borderTop: "4px solid black", width: "50%" }} />
             <h5>Address</h5>
             <p>Fishers, Indiana 46037</p>
@@ -34,6 +35,8 @@ class Resume extends Component {
             <p>(219) 307-6988</p>
             <h5>Email</h5>
             <p>Leighton.Fritze.Tech@gmail.com</p>
+            <hr style={{ borderTop: "4px solid black", width: "50%" }} />
+            <p>I am experienced in Web Accessibility, React CRUD Applications, RESTful APIs with Node.js, and Python. Common libraries used include: Axios, Redux, React-Router, Redux-Thunk, Express, and Knex. Common styling libraries include: Styled-Components, Semantic-UI, Material-UI, and React-mdl.</p>
           </Cell>
 
           <Cell className="resume-right-col" col={8}>
@@ -52,7 +55,7 @@ class Resume extends Component {
             <hr style={{ borderTop: "3px solid #e22947" }} />
 
             <h2>Skills</h2>
-            <p>I am experienced in web accessibility, React CRUD Applications, RESTful APIs with Node.js, and Python. Common libraries used include: Axios, Redux, React-Router, Redux-Thunk, Express, and Knex. Common styling libraries include: Styled-Components, Semantic-UI, Material-UI, and React-mdl.</p>
+            
             <Skills skill="HTML" progress={90} />
             <Skills skill="CSS" progress={90} />
             <Skills skill="JavaScript" progress={75} />

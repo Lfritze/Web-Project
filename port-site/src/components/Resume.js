@@ -3,7 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./Education";
 import Skills from "./Skills";
 import Experience from "./Experience";
-import portraitMe from '../assets/portraitme.jpg';
+import picOfMe from '../assets/pic_of_me.jpg';
 
 class Resume extends Component {
   render() {
@@ -13,7 +13,7 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img
-                src={portraitMe}
+                src={picOfMe}
                 alt="avatar"
                 style={{
                   height: "350px",
@@ -68,8 +68,8 @@ class Resume extends Component {
             <h2>Experience</h2>
 
             <Experience
-              startDate="Current"
-              // endDate="Current"
+              startDate="March 2020"
+              endDate="July 2020"
               companyName="Contractor - Valparaiso University"
               jobName="Web Developer" 
               jobDescription="Freelance Developer for Valparaiso University. - Migrated web pages to a new Wordpress platform; converted Classic Blocks from old site to Gutenburg Blocks. Restructuring blocks and balancing UI for best responsive design (media queries)."

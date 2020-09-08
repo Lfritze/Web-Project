@@ -3,7 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./Education";
 import Skills from "./Skills";
 import Experience from "./Experience";
-import picOfMe from '../assets/pic_of_me.jpg';
+import picOfMe from '../assets/pic-of-me.jpg';
 
 class Resume extends Component {
   render() {
@@ -17,7 +17,7 @@ class Resume extends Component {
                 alt="avatar"
                 style={{
                   height: "350px",
-                  borderRadius: "25%"
+                  borderRadius: "15%"
                 }}
               />
             </div>
@@ -36,7 +36,7 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>Leighton.Fritze.Tech@gmail.com</p>
             <hr style={{ borderTop: "4px solid black", width: "50%" }} />
-            <p>I am experienced in Web Accessibility, React CRUD Applications, RESTful APIs with Node.js, and Python. Common libraries used include: Axios, Redux, React-Router, Redux-Thunk, Express, and Knex. Common styling libraries include: Styled-Components, Semantic-UI, Material-UI, and React-mdl.</p>
+            <p>I am experienced in Web Accessibility, React CRUD Applications, RESTful APIs with Node.js, MERN stacks, and Python. Common libraries used include: Axios, Redux, React-Router, Redux-Thunk, Express, and Knex. Common styling libraries include: Styled-Components, Semantic-UI, Material-UI, and React-mdl.</p>
           </Cell>
 
           <Cell className="resume-right-col" col={8}>

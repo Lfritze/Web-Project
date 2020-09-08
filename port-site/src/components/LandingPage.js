@@ -18,7 +18,7 @@ class LandingPage extends Component {
             <div className="banner-text">
               <h1>Full Stack Developer</h1>
               <hr />
-              <p>HTML/CSS | JavaScript | React | SQL | NodeJS | MongoDB | Python | Agile | CMS</p>
+              <p>HTML/CSS | JavaScript | React | SQL | Node.js | MongoDB | Python | Agile | CMS</p>
               <div className="social-links" style={{display: "flex", justifyContent: "space-evenly"}}>
                 {/* LinkedIn */}
                 <a

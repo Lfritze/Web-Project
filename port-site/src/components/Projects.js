@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import githubPic  from "../assets/github-project.JPG";
-import basbeballPic from "../assets/baseball.JPG"
+import basbeballPic from "../assets/baseball.jpg"
 import didactPic from "../assets/didact.JPG";
 import africaPic from "../assets/africa.JPG";
 import valpoPic from "../assets/valpo.jpg";
@@ -36,8 +36,10 @@ class Projects extends Component {
             <CardTitle
               style={{
                 color: "#000",
-                height: "376px",
-                width: "500px",
+                height: "276px",
+                width: "100%",
+                
+                
                 background: `url(${basbeballPic})`,
                 backgroundRepeat: "no-repeat",
                 backgroundSize: "cover",
@@ -49,17 +51,14 @@ class Projects extends Component {
             </CardTitle>
             <CardText>
               <h4>Fritze Cards</h4>
-              <p>MERN stack - ecommcerce application using React / Node / MongoDB. This is a content management system app with hierarchical user roles (Owner, Admin, Moderator, User).</p>  
-              <p>Frontend - Redux, Axios, MixPanel, Cypress, Material UI, and Styled Components. 
-              Backend - PostgreSQL, Express, Helmet, Cors, Cloudinary, Multer, Nodemon, Bycrypt, Jest, Supertest. </p>
+              <p>MERN stack - ecommcerce application using React / Node / MongoDB. Admin User and General Users.</p>  
+              <p>Other tech used: PayPal, Axios, Express, Mongoose, Nodemon, & Babel</p>
             </CardText>
             <CardActions border>
               <Button colored 
-                href="https://github.com/Lfritze/didact-fe"
-                target="_blank">GitHub FE</Button>
-              <Button colored href="https://github.com/Lfritze/didact-be"
-                target="_blank">Github BE</Button>
-              <Button colored href="https://didactlmsfe.netlify.com/"
+                href="https://github.com/Lfritze/jayrow"
+                target="_blank">GitHub</Button>
+                <Button colored href="https://fritze-cards.herokuapp.com/"
                 target="_blank">Live Demo</Button>
             </CardActions>
             

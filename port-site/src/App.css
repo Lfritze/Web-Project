@@ -2,18 +2,22 @@
   background: #ed213a; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #93291e,
+    #005261,
     #ed213a
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #93291e,
-    #ed213a
+    #141414,
+    #44030b
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+/* #850413,
+    #b40418 */
+
+
 
 .landing-grid {
-  background: url(./assets/sunflower.jpg) no-repeat center / 100%;
+  background: url(./assets/tree-grass.JPG) no-repeat center / 100%;
   background-size: cover;
   position: absolute;
   top: 0;
@@ -44,26 +48,25 @@
 
 .about-me {
   /* margin: 0 auto; */
-  background: url(./assets/sunsetbeach.jpg) no-repeat center / 100%;
+  background: url(./assets/guitar.JPG) no-repeat center / 100%;
   background-size: cover;
   position: static;
   padding: 3%;
   width: 100%;
   height: 100%;
-  
 }
 
 
 .about-paragraph {
   width: 50%;
   margin: 0 auto;
-  background-color: black;
-  opacity: 0.75;
+  background-color: #000;
+  opacity: 0.85;
   width: 55%;
   border-radius: 10px;
   padding: 1%;
   padding-bottom: 4%;
-  border: 2px solid red;
+  border: 2px solid #f4e6cf;
 }
 
 .about-paragraph h1 {
@@ -72,6 +75,7 @@
   color: white;
   text-align: center;
 }
+
 .about-paragraph p {
   margin: 0;
   padding-top: 3%;
@@ -129,11 +133,15 @@
   height: 250px;
   margin-top: 5em;
   border-radius: 50%;
+  opacity: 0.95;
 }
 
 .banner-text {
-  background-color: #c0252c;
-  opacity: 0.75;
+  /* background-color: #c0252c; */
+  background-color: #141414;
+  /* background-color: #005261; */
+  /* background-color: #1c0124; */
+  opacity: 0.85;
   width: 55%;
   margin: auto;
   border-radius: 10px;

@@ -16,7 +16,7 @@ class AboutMe extends Component {
           </p> */}
           <p>
             I am experienced in web accessibility, React
-            CRUD Applications, RESTful APIs with Node.js, and Python. Common libraries
+            CRUD Applications, RESTful APIs, and MongoDB. Common libraries
             used include: Axios, Redux, React-Router, Redux-Thunk, Express, and
             Knex. Common styling libraries include: Styled-Components,
             Semantic-UI, Material-UI, and React-mdl. 

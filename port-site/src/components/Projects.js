@@ -51,8 +51,8 @@ class Projects extends Component {
             </CardTitle>
             <CardText>
               <h4>Fritze Cards</h4>
-              <p>MERN stack - ecommcerce application using React / Node / MongoDB. Admin User and General Users.</p>  
-              <p>Other tech used: PayPal, Axios, Express, Mongoose, Nodemon, & Babel</p>
+              <p>MERN stack - ecommcerce application using MongoDB / Express /  React / Node. <br />2 types of users: <br /> (Admin User) for editing content, sales, and users <br />(General Users) for purchasing cards.</p>  
+              <p>Other tech used: PayPal, Axios, Mongoose, Nodemon, & Babel</p>
             </CardText>
             <CardActions border>
               <Button colored 

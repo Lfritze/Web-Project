@@ -4,7 +4,7 @@
 ###
 
 <div align="center">
-  <img width="75%" src="port-site/screenshot.JPG" alt="cover" />
+  <img width="75%" src="port-site/screenshot.jpg" alt="cover" />
 </div>
 
 # My Portfolio Website

@@ -4,12 +4,12 @@
 ###
 
 <div align="center">
-  <img width="75%" src="screenshot.JPG" alt="cover" />
+  <img width="75%" src="port-site/screenshot.JPG" alt="cover" />
 </div>
 
 # My Portfolio Website
 
-My portfolio website was created to display my resume and projects.  
+My portfolio website was created to display my resume and projects. It currently contains a landing page, resume/contact page, about me page, and a projects page.
 
 ## Installation
 
@@ -18,7 +18,7 @@ My portfolio website was created to display my resume and projects.
 - CD into port-site
 - npm start
 
-## Technology - MERN Stack
+## Technology 
 
 - React
 - React MDL (for styling)

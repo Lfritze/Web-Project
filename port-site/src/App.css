@@ -1,14 +1,14 @@
 .header-color {
-  background: #ed213a; /* fallback for old browsers */
+  background: #253893; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #005261,
+    #253893,
     #ed213a
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #141414,
-    #44030b
+    #850413,
+    #861313
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /* #850413,
@@ -17,7 +17,8 @@
 
 
 .landing-grid {
-  background: url(./assets/tree-grass.JPG) no-repeat center / 100%;
+  background: url(./assets/indy.jpg) no-repeat center / 100%;
+  /* background-image: radial-gradient(circle, #7de6ce 0%, #03758b 100%); */
   background-size: cover;
   position: absolute;
   top: 0;
@@ -137,8 +138,10 @@
 }
 
 .banner-text {
+  background-color: #86121f;
+  /* background-color: #023842; */
   /* background-color: #c0252c; */
-  background-color: #141414;
+  /* background-color: #141414; */
   /* background-color: #005261; */
   /* background-color: #1c0124; */
   opacity: 0.85;
@@ -217,7 +220,7 @@
 
 @media only screen and (max-width: 450px) {
   .landing-grid {
-    background: url(./assets/sunsetbeach.jpg) no-repeat center / 120%;
+    background: url(./assets/indy.jpg) no-repeat center / 120%;
     background-size: cover;
 
     position: relative;

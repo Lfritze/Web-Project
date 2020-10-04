@@ -134,7 +134,9 @@
   height: 250px;
   margin-top: 5em;
   border-radius: 50%;
-  opacity: 0.95;
+  /* opacity: 0.95; */
+  /* border: 2px solid #000; */
+  box-shadow: 0px 4px 14px 4px #f7f6ee;
 }
 
 .banner-text {
@@ -148,6 +150,7 @@
   width: 55%;
   margin: auto;
   border-radius: 10px;
+  /* border: 5px solid #000; */
 }
 
 .banner-text h1 {
@@ -220,7 +223,7 @@
 
 @media only screen and (max-width: 450px) {
   .landing-grid {
-    background: url(./assets/indy.jpg) no-repeat center / 120%;
+    background: url(./assets/indy.jpg) no-repeat center / 100%;
     background-size: cover;
 
     position: relative;

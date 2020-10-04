@@ -36,7 +36,7 @@ class Resume extends Component {
             <h5>Email</h5>
             <p>Leighton.Fritze.Tech@gmail.com</p>
             <hr style={{ borderTop: "4px solid black", width: "50%" }} />
-            <p>I am experienced in Web Accessibility, React CRUD Applications, RESTful APIs with Node.js, MERN stacks, and Python. Common libraries used include: Axios, Redux, React-Router, Redux-Thunk, Express, and Knex. Common styling libraries include: Styled-Components, Semantic-UI, Material-UI, and React-mdl.</p>
+            <p>I am experienced in Web Accessibility, React Applications, RESTful APIs with Node.js, MERN stacks, and Python. Common libraries used include: Axios, Redux, React-Router, Redux-Thunk, Express, Mongoose, and Knex. Common styling libraries include: Styled-Components, Semantic-UI, Material-UI, and React-mdl.</p>
           </Cell>
 
           <Cell className="resume-right-col" col={8}>

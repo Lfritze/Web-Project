@@ -77,11 +77,23 @@
   text-align: center;
 }
 
+.about-paragraph h2 {
+  margin: 0;
+  padding-top: 3%;
+  color: white;
+  /* text-align: center; */
+}
+
 .about-paragraph p {
   margin: 0;
   padding-top: 3%;
   font-size: 1.3rem;
   color: white;
+}
+
+.about-paragraph ul {
+  font-size: 1.3rem;
+  
 }
 
 /* Contact Page ***********/

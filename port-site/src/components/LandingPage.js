@@ -19,7 +19,7 @@ class LandingPage extends Component {
               <h1>Leighton Fritze</h1>
               
               <hr />
-              <p>HTML / CSS | JavaScript | React | Node | MongoDb | Python | Agile | </p>
+              <p>HTML / CSS | JavaScript | React | Node | MongoDb | Python | Agile  </p>
               <div className="social-links" style={{display: "flex", justifyContent: "space-evenly"}}>
                 {/* LinkedIn */}
                 <a

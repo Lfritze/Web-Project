@@ -20,11 +20,11 @@
   background: url(./assets/indy.jpg) no-repeat center / 100%;
   /* background-image: radial-gradient(circle, #7de6ce 0%, #03758b 100%); */
   background-size: cover;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 180%;
   text-align: center;
   overflow: hidden;
 }
@@ -234,19 +234,25 @@
 
 
 @media only screen and (max-width: 450px) {
+  body {
+    overflow: hidden;
+    background-color: #fff;
+    padding-bottom: 158px;
+  }
   .landing-grid {
     background: url(./assets/indy.jpg) no-repeat center / 100%;
     background-size: cover;
 
-    position: relative;
+    /* position: relative; */
     top: 0;
     left: 0;
     width: 100%;
-    height: 130%;
+    /* height: 130%; */
     text-align: center;
     font-size: 0.5rem;
   }
   .landing-grid h1 {
     font-size: 2rem;
   }
+  
 }

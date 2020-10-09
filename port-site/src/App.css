@@ -37,11 +37,20 @@
 }
 
 /* Resume Page ***********/
+
+.resumeButton {
+  background: #850413;
+  border-radius: 5%;
+}
+
+
 .resume-right-col {
   background: #27221f;
   color: #fff;
   padding: 2em;
 }
+
+
 
 /* Resume Page ***********/
 
@@ -228,7 +237,7 @@
 @media only screen and (max-width: 600px) {
   body {
     overflow: hidden;
-    background-color: #fff;
+    background-color: #242424;
     padding-bottom: 58px;
   }
   .resumeContent {

@@ -3,7 +3,7 @@ import { Grid, Cell } from "react-mdl";
 import Education from "./Education";
 import Skills from "./Skills";
 import Experience from "./Experience";
-import picOfMe from '../assets/pic-of-me.jpg';
+import me from '../assets/me.jpg';
 
 class Resume extends Component {
   render() {
@@ -13,21 +13,24 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>
               <img
-                src={picOfMe}
+                src={me}
                 alt="avatar"
                 style={{
                   height: "350px",
-                  borderRadius: "15%"
+                  borderRadius: "50%",
+                  boxShadow: "0px 4px 12px 4px #000"
                 }}
               />
             </div>
             <h2 style={{ paddingTop: "1em" }}>Leighton Fritze</h2>
             <h4 style={{ color: "grey" }}>Full Stack Developer</h4>
+            <button className="resumeButton">
+            <a style={{fontSize: "1.5rem", color: "#fff", textDecoration: "none"}} target="_blank" href="https://drive.google.com/file/d/1rtkikllgsMLQ0kJfLqRgcMzaMb0da4Lm/view?usp=sharing">Resume</a>
+            </button>
             <hr style={{ borderTop: "4px solid black", width: "50%" }} />
             <p>
-              Full Stack Developer with a passion for learning and seeking new opportunities. I thrive in an environment that requires continuous learning, creativity, and change.
+              Full Stack Developer with a passion for learning and seeking new opportunities. I thrive in an environment that requires continuous learning, creativity, and change. I am a self-starter and willing to learn new languages, frameworks, and stacks on the job.
             </p>
-            
             <hr style={{ borderTop: "4px solid black", width: "50%" }} />
             <h5>Address</h5>
             <p>Fishers, Indiana 46037</p>
@@ -61,6 +64,8 @@ class Resume extends Component {
             <Skills skill="JavaScript" progress={75} />
             <Skills skill="React" progress={75} />
             <Skills skill="Node.js" progress={60} />
+            <Skills skill="MongoDB" progress={60} />
+            <Skills skill="PostgreSQL" progress={60} />
             <Skills skill="Python" progress={60} />
             <Skills skill="Project Management" progress={95} />
 

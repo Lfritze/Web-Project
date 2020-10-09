@@ -15,7 +15,7 @@ class AboutMe extends Component {
             requires continuous learning, creativity, and change. This is precisely why I chose a career in software development. 
           </p> */}
           <p>
-            My name is Leighton. I spend most of my free time with my wife and our two young boys. I entered the tech industry in 2016 when I started my Master's in IT at Valparaiso University. I graduated in 2017 and worked as a Web Accessibility Coordinator / Network Tech for a school district. Then I decided to dive into the software development world head first by enrolling in Lambda School's Full Stack program. This program focuses on group project work that mimics the product development lifecycle. I recently graduated Lambda School and now I am looking to work for a company that has a positive work culture and healthy work-life balance.  
+            My name is Leighton. I spend most of my free time with my wife and our two young boys. I entered the tech industry in 2016 when I started my Master's in IT at Valparaiso University. I graduated in 2017 and worked as a Web Accessibility Coordinator & Network Tech for a school district. Then I decided to dive into the software development world head first by enrolling in Lambda School's Full Stack program. This program focuses on group project work that mimics the product development lifecycle. I recently graduated Lambda School with full endorsement and now I am looking to work for a company that has a positive work culture and healthy work-life balance.  
           </p>
           <p>
             I am experienced in web accessibility, React

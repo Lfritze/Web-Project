@@ -8,7 +8,7 @@ import picOfMe from '../assets/pic-of-me.jpg';
 class Resume extends Component {
   render() {
     return (
-      <div>
+      <div className="resumeContent">
         <Grid>
           <Cell col={4}>
             <div style={{ textAlign: "center" }}>

@@ -49,12 +49,13 @@
 
 .about-me {
   /* margin: 0 auto; */
-  background: url(./assets/guitar.JPG) no-repeat center / 100%;
+  background: url(./assets/sunsetbeach.jpg) no-repeat center / 100%;
   background-size: cover;
   position: static;
   padding: 3%;
   width: 100%;
   height: 100%;
+  background-color: #242424;
 }
 
 
@@ -230,13 +231,16 @@
     background-color: #fff;
     padding-bottom: 58px;
   }
+  .resumeContent {
+    color: #fff;
+  }
 }
 
 
 @media only screen and (max-width: 450px) {
   body {
     overflow: hidden;
-    background-color: #fff;
+    background-color: #242424;
     padding-bottom: 158px;
   }
   .landing-grid {
@@ -253,6 +257,9 @@
   }
   .landing-grid h1 {
     font-size: 2rem;
+  }
+  .resumeContent {
+    color: #fff;
   }
   
 }
